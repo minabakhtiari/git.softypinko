@@ -167,3 +167,27 @@ bottom:400px;
    color:rgb(0, 0, 0);
    filter: opacity(90%);
 }
+
+
+
+
+.box7{ background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 10px;
+    width: 300px;
+    height:200px;
+position: relative;
+left: 900px;
+bottom:800px;
+
+   }
+
+#pish{border-radius: 6px;
+   width:300px;
+    height:400px;
+    margin-left: 20px;
+margin-top: 6px;
+
+}
+
+
