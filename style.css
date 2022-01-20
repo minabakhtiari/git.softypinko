@@ -144,3 +144,26 @@ bottom:500px;
 }
 
 
+
+
+.box6{ background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+margin-left:100px;
+position: relative;
+bottom:400px;
+
+   }
+   #p6{color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    font-weight:bold;
+    
+}
+#p6-2{text-align:left;
+    font-size: 15px;
+   color:rgb(0, 0, 0);
+   filter: opacity(90%);
+}
