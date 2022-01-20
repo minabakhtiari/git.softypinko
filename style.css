@@ -10,10 +10,10 @@ body{background-image: url("paszamineh1.jpg");
     border-color: white solid 2px;
     border-radius: 10px;
     box-shadow: slategrey 1px  1px  2px  ;
-    width: 320px;
-    height: 210px;
+    width: 325px;
+    height: 215px;
 position: relative;
-left: 200px;
+left:193px;
 top: 20px;
 
 }
@@ -41,11 +41,11 @@ font-weight:bold;
     border-color: white solid 2px;
     border-radius: 10px;
     box-shadow:  slategrey 1px  1px  2px;
-    width: 320px;
-    height: 210px;
+    width: 325px;
+    height: 215px;
 position: relative;
-left: 550px;
-bottom:190px;
+left: 560px;
+bottom:193px;
 
    }
 .box2:hover{
@@ -74,11 +74,11 @@ font-weight:bold;
     border-color: white solid 2px;
     border-radius: 10px;
     box-shadow:  slategrey 1px  1px  2px  ;
-    width: 320px;
-    height: 210px;
+    width: 325px;
+    height: 215px;
 position: relative;
-left: 900px;
-bottom:400px;
+left: 925px;
+bottom:408px;
 
    }
 .box3:hover{
@@ -120,3 +120,27 @@ bottom:380px;
 margin-top: 6px;
 
 }
+
+.box5{ background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) solid 2px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+margin-left: 750px;
+position: relative;
+bottom:500px;
+
+   }
+   #p5{color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    font-weight:bold;
+    
+}
+#p5-2{text-align:left;
+    font-size: 15px;
+   color:rgb(0, 0, 0);
+   filter: opacity(90%);
+}
+
+
