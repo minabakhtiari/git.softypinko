@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8" />
+<title>Softy Pinko</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<style>
+
+    .menu,.menu ul,.menu li,.menu a {
+            margin: 0;
+            padding: 0;
+            border: none;
+            outline: none;
+    }
+    
+    
+    .menu {      
+            height: 48px;
+            width: 93%;
+            direction:rtl;
+      background-color:rgb(255, 255, 255);
+          border-radius:70px;
+          position: relative;
+          right: 50px;
+          background-attachment: fixed; 
+
+          
+      
+            
+            
+    }
+    
+    .menu li {
+            position: relative;
+            list-style: none;
+            float:right;
+            display: block;
+            height: 45px;
+            padding: 5px 5px;
+               }
+    
+    .menu li a {
+            display: block;
+            padding: 0 14px;
+            margin: 6px 0;
+            line-height: 28px;
+            text-decoration:none;
+           
+           
+    
+            font-family: Tahoma, Arial, sans-serif ;
+            font-weight: normal;
+            font-size: 15px ;
+    
+            color: #000000;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.959);
+    
+            -webkit-transition: color .2s ease-in-out;
+            -moz-transition: color .2s ease-in-out;
+            -o-transition: color .2s ease-in-out;
+            -ms-transition: color .2s ease-in-out;
+            transition: color .2s ease-in-out;
+    }
+    
+    .menu li:first-child a { border-left: none; }
+    .menu li:last-child a{ border-right: none; }
+    
+    .menu li:hover > a { color: #fdd8f8; }
+    
+    
+    
+    .menu ul {
+            position: absolute;
+            top: 40px;
+            right: 0;
+            opacity: 0;
+            background: #ff5ace;
+            -webkit-border-radius: 0 0 5px 5px;
+            -moz-border-radius: 0 0 5px 5px;
+            border-radius: 5px 5px 5px 5px;
+            -webkit-transition: opacity .25s ease .1s;
+            -moz-transition: opacity .25s ease .1s;
+            -o-transition: opacity .25s ease .1s;
+            -ms-transition: opacity .25s ease .1s;
+            transition: opacity .25s ease .1s;
+    }
+    
+    .menu li:hover > ul { opacity: 1; }
+    
+    .menu ul li {
+            height: 0;
+            overflow: hidden;
+            padding: 2px 2px 2px 2px;
+            -webkit-transition: height .25s ease .1s;
+            -moz-transition: height .25s ease .1s;
+            -o-transition: height .25s ease .1s;
+            -ms-transition: height .25s ease .1s;
+            transition: height .25s ease .1s;
+    }
+    
+    .menu li:hover > ul li {
+            height: 36px;
+            overflow: visible;
+            padding: 0;
+            direction:rtl;
+    }
+    
+    .menu ul li a {
+            width: 100px;
+            padding: 4px 30px 4px 0;
+            margin: 0;
+            border: none;
+            border-bottom: 3px solid #0202ca;
+    }
+    #m5li:hover{color:#fdd8f8;}
+    .menu ul li:last-child a { border: none; }
+    
+    
+    .menu a.documents { background: url(docs.png) no-repeat center; }
+    .menu a.messages { background: url(bubble.png) no-repeat  center; }
+    .menu a.signout { background: url(arrow.png) no-repeat  center; }
+    </style>
+</head>
+<body>
+  
+    <ul class="menu" style="float:right">
+        <li>
+            <a href="#"> Contact Us</a>
+    <ul style="text-align:right; margin-right:10px;">
+                    <li>
+                            <a class="documents" href="#">zir menu 1</a>
+        </li>
+                    <li>
+                            <a class="messages" href="#">zir menu 2</a>
+        </li>
+                    <li>
+                            <a class="signout" href="#">zir menu 3</a>
+        </li>
+            </ul>
+</li>
+        <li>
+                <a href="#"> Blog Entries</a>
+        <ul style="text-align:right">
+                        <li>
+                                <a class="documents" href="#">zir menu 1</a>
+            </li>
+                        <li>
+                                <a class="messages" href="#">zir menu 2</a>
+            </li>
+                        <li>
+                                <a class="signout" href="#"> zir menu 3</a>
+            </li>
+                </ul>
+    </li>
+        <li>
+                <a href="#">Pricing Tables </a>
+                <ul style="text-align:right">
+                        <li>
+                                <a class="documents" href="#"> zir menu 1</a>
+            </li>
+                        <li>
+                                <a class="messages" href="#"> zir menu 2</a>
+            </li>
+                        <li>
+                                <a class="signout" href="#"> zir menu 3</a>
+            </li>
+                </ul>
+        </li>
+
+
+        <li>
+                <a href="#"> Testimoni</a>
+                <ul style="text-align:right">
+                        <li>
+                                <a class="documents" href="#">zir menu 1 </a>
+            </li>
+                        <li>
+                                <a class="messages" href="#"> zir menu 2</a>
+            </li>
+                        <li>
+                                <a class="signout" href="#"> zir menu 3</a>
+            </li>
+                </ul>
+        </li>
+
+        <li>
+                <a href="#">Work Process </a>
+                <ul style="text-align:right">
+                        <li>
+                                <a class="documents" href="#"> zir menu 1</a>
+            </li>
+                        <li>
+                                <a class="messages" href="#"> zir menu 2</a>
+            </li>
+                        <li>
+                                <a class="signout" href="#"> zir menu 3</a>
+            </li>
+                </ul>
+        </li>
+
+
+        <li>
+                <a href="#"> About</a>
+    </li>
+        <li id="m5">
+                <a href="#" style="color: tomato;">Home</a>
+    </li>
+    <img src="لوگو.jpg" width="190"alt="لوگو.jpg" height="38" style="border-radius: 30px; position: relative; right: 460px;top:5px;"/>
+</ul>
+ <p style="position: relative; left: 560px; top:120px;color: white;font-size: 245%; filter:opacity(80%);">Weprovide the best</p> <bdi style="font-size: 245%;position: relative;left:869px;top: 34px;color: white;">strategy</bdi>
+ <p style="position: relative; left: 589px; top:10px;color: white;font-size: 220%; filter:opacity(80%);">to grow up your </p> <bdi style="font-size: 220%; position: relative; left:830px;color: white;bottom:65px;">business</bdi>
+ <p style="color: white; filter: opacity(80%);position: relative; left: 570px;bottom: 60px;">Softy Pinko is profissional Bootstrap 4.0 theme deisigned by Template Mo</p>
+ <p style="color: white; filter: opacity(80%); position: relative; left: 640px;bottom: 60px;">for your company al absolutcly free of chenge</p>
+ <button type="button" onclick="alert('USCOVER MOVE')" style="background-color: rgb(255, 56, 122); position: relative; left: 720px; bottom:60px; border-radius: 20px; color: white; border-color:  rgb(255, 56, 122); padding: 11px 11px 11px 11px;"><a href="#">USCOVER MOVE</a></button>
+
+  
+</body>
+</html>
