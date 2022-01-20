@@ -3,3 +3,35 @@ body{background-image: url("paszamineh1.jpg");
     background-repeat: no-repeat;
     
     }
+
+
+    
+.box1{ background-color: rgb(255, 255, 255);
+    border-color: white solid 2px;
+    border-radius: 10px;
+    box-shadow: slategrey 1px  1px  2px  ;
+    width: 320px;
+    height: 210px;
+position: relative;
+left: 200px;
+top: 20px;
+
+}
+.box1:hover{
+    background-color: rgb(255, 110, 219);
+}
+#goft{border-radius:210px;
+   max-width:65%;
+    max-height: 31%;
+    margin-left: 120px;
+margin-top: 9px;
+
+}
+#p1{color: rgb(0, 0, 0);
+font-size: 15px;
+text-align: center;
+font-weight:bold;
+}
+#p1-2{text-align:center;
+}
+
