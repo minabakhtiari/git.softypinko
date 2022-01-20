@@ -35,3 +35,35 @@ font-weight:bold;
 #p1-2{text-align:center;
 }
 
+
+
+.box2{ background-color:  rgb(255, 255, 255);
+    border-color: white solid 2px;
+    border-radius: 10px;
+    box-shadow:  slategrey 1px  1px  2px;
+    width: 320px;
+    height: 210px;
+position: relative;
+left: 550px;
+bottom:190px;
+
+   }
+.box2:hover{
+    background-color: rgb(255, 110, 219);
+}
+#gof{border-radius:220px;
+   max-width:72%;
+    height:65px;
+    margin-left: 120px;
+margin-top: 9px;
+
+}
+#p2{color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+font-weight:bold;
+    
+}
+#p2-2{text-align:center;
+}
+
