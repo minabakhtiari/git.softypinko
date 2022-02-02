@@ -1,26 +1,54 @@
 
-body{background-image: url("paszamineh1.jpg");
+body{
+    font-size: 15px;
+    background-image: url("pasza.jpg");
     background-repeat: no-repeat;
+    background-size: 105% 25%;
+    }
+    .main-container{
+        width: 100%;
+        max-height: 100%;
+        max-width:1240px ;
+        margin: 0px auto;
+        font-size: 1em;
+    }
+    
+.img-logo{
+    width: 12%;
+    height: 10%;
+    position: relative;
+   right:26%;
+   top: 12px;
+}
+
+    #text{
+        position:relative;
+       right:8%;
+        bottom: 30px;
+        background-attachment: fixed;
     
     }
-
-
     
+    main{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+
 .box1{ background-color: rgb(255, 255, 255);
     border-color: white solid 2px;
     border-radius: 10px;
     box-shadow: slategrey 1px  1px  2px  ;
-    width: 325px;
+    width: 330px;
     height: 215px;
 position: relative;
-left:193px;
-top: 21px;
+left:5%;
+bottom:17%;
 
 }
 .box1:hover{
     background-color: rgb(255, 110, 219);
 }
-#goft{border-radius:210px;
+#goft{border-radius:100%;
    max-width:65%;
     max-height: 31%;
     margin-left: 120px;
@@ -28,7 +56,7 @@ margin-top: 9px;
 
 }
 #p1{color: rgb(0, 0, 0);
-font-size: 15px;
+font-size:1em;
 text-align: center;
 font-weight:bold;
 }
@@ -41,17 +69,17 @@ font-weight:bold;
     border-color: white solid 2px;
     border-radius: 10px;
     box-shadow:  slategrey 1px  1px  2px;
-    width: 325px;
+    width: 330px;
     height: 215px;
 position: relative;
-left: 560px;
-bottom:193px;
+right:250%;
+bottom:17%;
 
    }
 .box2:hover{
     background-color: rgb(255, 110, 219);
 }
-#gof{border-radius:220px;
+#gof{border-radius:100%;
    max-width:72%;
     height:65px;
     margin-left: 120px;
@@ -59,12 +87,13 @@ margin-top: 9px;
 
 }
 #p2{color: rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 1em;
     text-align: center;
 font-weight:bold;
     
 }
 #p2-2{text-align:center;
+    opacity: 60%;
 }
 
 
@@ -77,14 +106,14 @@ font-weight:bold;
     width: 325px;
     height: 215px;
 position: relative;
-left: 925px;
-bottom:408px;
+right:241%;
+bottom:18%;
 
    }
 .box3:hover{
     background-color: rgb(255, 110, 219);
 }
-#go{border-radius:220px;
+#go{border-radius:100%;
    max-width:70%;
     height:65px;
     margin-left: 120px;
@@ -92,7 +121,8 @@ margin-top: 9px;
 
 }
 #p3{color: rgb(0, 0, 0);
-    font-size: 15px;
+
+    font-size: 1em;
     text-align: center;
     font-weight:bold;
     
@@ -100,24 +130,31 @@ margin-top: 9px;
 #p3-2{text-align:center;
 }
 
+.content{
+    padding: 2px;
+}
+
+main section .content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
 
 
 .box4{ background-color: rgb(255, 255, 255);
     border: rgb(255, 255, 255) solid 2px;
-    border-radius: 10px;
-    width: 310px;
-    height:290px;
+    border-radius: 50%;
+    max-width: 40%;
+    max-height:30%;
 position: relative;
-left: 150px;
-bottom:380px;
-
+right: 30px;
+bottom:1%;
    }
 
-#donaf{border-radius: 6px;
-   width:400px;
-    height:400px;
-    margin-left: 20px;
-margin-top: 6px;
+#donaf{border-radius: 50%;
+    max-width:100%;
+    max-height:100%;
+
 
 }
 
@@ -128,7 +165,8 @@ margin-top: 6px;
     height: 300px;
 margin-left: 750px;
 position: relative;
-bottom:500px;
+bottom:18%;
+right:5%;
 
    }
    #p5{color: rgb(0, 0, 0);
@@ -153,7 +191,9 @@ bottom:500px;
     height: 300px;
 margin-left:100px;
 position: relative;
-bottom:400px;
+bottom:18%;
+right:10%;
+
 
    }
    #p6{color: rgb(0, 0, 0);
@@ -173,21 +213,59 @@ bottom:400px;
 
 .box7{ background-color: rgb(255, 255, 255);
     border: rgb(255, 255, 255) solid 2px;
-    border-radius: 10px;
-    width: 300px;
-    height:200px;
+    border-radius: 10%;
+    max-width:30%;
+    max-height:20%;
 position: relative;
-left: 900px;
-bottom:800px;
+left:60%;
+bottom:45%;
 
    }
 
-#pish{border-radius: 6px;
-   width:300px;
-    height:400px;
-    margin-left: 20px;
-margin-top: 6px;
+#pish{border-radius: 10%;
+    max-width:80%;
+    max-height:80%;
 
 }
 
+
+
+/*media qurey*/
+
+@media screen and (max-width:1240px){
+
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  main section .content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    }
+
+    @media screen and (max-width:900px){
+   
+    main .menu{
+        display: none;
+    
+    }
+    main{
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+    main section .content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    header ul .menu{
+        flex-direction: column;
+    }
+    header menu,.menu ul,.menu li,.menu a{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .main-container{
+        font-size:1em;
+    }
+
+}
 
