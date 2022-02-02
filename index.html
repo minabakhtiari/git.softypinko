@@ -15,14 +15,14 @@
     
     
     .menu {      
-            height: 48px;
-            width: 93%;
+            max-height:10%;
+            width: 100%;
             direction:rtl;
       background-color:rgb(255, 255, 255);
           border-radius:70px;
           position: relative;
-          right: 50px;
-          background-attachment: fixed; 
+          right: 25px;
+      
 
           
       
@@ -50,7 +50,7 @@
     
             font-family: Tahoma, Arial, sans-serif ;
             font-weight: normal;
-            font-size: 15px ;
+            font-size: 1em;
     
             color: #000000;
             text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.959);
@@ -122,7 +122,8 @@
     </style>
 </head>
 <body>
-  
+        <div class="main-container">
+                <header>  
     <ul class="menu" style="float:right">
         <li>
             <a href="#"> Contact Us</a>
@@ -205,20 +206,21 @@
         <li id="m5">
                 <a href="#" style="color: tomato;">Home</a>
     </li>
-    <img src="لوگو.jpg" width="190"alt="لوگو.jpg" height="38" style="border-radius: 30px; position: relative; right: 460px;top:5px;"/>
+    <img src="لوگو.jpg"alt="لوگو.jpg"   class="img-logo"/>
 </ul>
- <p style="position: relative; left: 560px; top:120px;color: white;font-size: 245%; filter:opacity(80%);">Weprovide the best</p> <bdi style="font-size: 245%;position: relative;left:869px;top: 34px;color: white;">strategy</bdi>
- <p style="position: relative; left: 589px; top:10px;color: white;font-size: 220%; filter:opacity(80%);">to grow up your </p> <bdi style="font-size: 220%; position: relative; left:830px;color: white;bottom:65px;">business</bdi>
+<section id="text">
+ <p style="position: relative; left: 560px; top:120px;color: white;font-size: 245%; filter:opacity(80%);">We provide the best</p> <bdi style="font-size: 245%;position: relative;left:859px;top: 40px;color: white;">strategy</bdi>
+ <p style="position: relative; left: 589px; top:10px;color: white;font-size: 220%; filter:opacity(80%);">to grow up your </p> <bdi style="font-size: 220%; position: relative; left:805px;color: white;bottom:60px;">business</bdi>
  <p style="color: white; filter: opacity(80%);position: relative; left: 570px;bottom: 60px;">Softy Pinko is profissional Bootstrap 4.0 theme deisigned by Template Mo</p>
  <p style="color: white; filter: opacity(80%); position: relative; left: 640px;bottom: 60px;">for your company al absolutcly free of chenge</p>
  <button type="button" onclick="alert('USCOVER MOVE')" style="background-color: rgb(255, 56, 122); position: relative; left: 720px; bottom:60px; border-radius: 20px; color: white; border-color:  rgb(255, 56, 122); padding: 11px 11px 11px 11px;"><a href="#">USCOVER MOVE</a></button>
-
-
- 
+</section>
+</header>
+ <main>
  <div class="box1" >
         <img id="goft" src="3nafari.jpg" alt="goftegoo" />
         <p id="p1">Modern Strategy</p>
-        <pre id="p1-2">Customize anything in this template to fit </pre>
+        <pre id="p1-2">Customize anything inthis templateto fit </pre>
         <pre id="p1-2">your website needs</pre>
     </div>
 
@@ -240,7 +242,7 @@
     </div>  
 
 
-
+    <section class="content">
     <div class="box4" >
         <img id="donaf" src="donafareh neshaste.jpg" alt="donafareh" />
        
@@ -270,7 +272,10 @@
         <img id="pish" src="komak.jpg" alt="pishraft" />
        
     </div>
-
+    </section>
+</main>
+<footer></footer>
+</div>
 
 </body>
 </html>
