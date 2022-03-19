@@ -5,80 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculation</title>
-    <script src="/script.js" >
+    <script  type="text/script" >
     </script>
     <style>
    .calculation{
        border:2px solid black;
-     padding:5px;
-     border-radius: 10px;
-    width: 300px;
+     padding:2px;
+     margin: 2px;
+     border-radius: 5px;
+    width: 310px;
+    height: 180px;
    }
     </style>
 </head>
 <body>
+    
+    
    <div class="calculation" >
     
-    <form>
-        <label name="addad aval">addad aval
-        </label> 
-        <input type="text"/><br/>
-        <br/>
-        <label name="addad dovom">addad dovom</label>
-         <input type="text"/><br/><br/>
-         <label name="addad sevom">addad sevom</label>
-         <input type="text"/><br/>
-         <label name="jam">+</label>
-         <input type="checkbox"/>
-         <label name="taghsim">-</label>
-         <input type="checkbox"/>
-         <label name="zarb">*</label>
-         <input type="checkbox"/>
-         <label name="taghsim">/</label>
-         <input type="checkbox"/>
-         <br/>
-         <br/>
-         <button name="khoroji">khoroji</button>
+    <form name="calculation"  method="post">
+        <table>
+<tr>
+    <td>
+        addad aval
+    </td>
+    <td>
+        <input type="text" name="t1" id="t1"/>
+    </td>
+</tr>
+<tr>
+    <td>
+        addad dovom
+    </td>
+    <td>
+        <input type="text" name="t2" id="t2"/>
+    
+    </td>
+</tr>
+<tr>
+   
+    <td style="position: relative; left: 6px;">
+<input type="checkbox" value="+" onclick="add();"/>
+<label>+</label>
+    </td>
+  
+    <td style="position: relative; right: 5px;">
+        <input type="checkbox" value="-" onclick="sub();"/>
+        <label>-</label>
+            </td>
+         
+            <td style="position: relative; right:120px; padding:5px;bottom: 10px;">
+                <label style="position: relative; top: 22px; left: 20px; ">*</label>
+                <input type="checkbox" value="*" onclick="mul();"/>
+                
+                    </td>
+                   
+                    <td style="position: relative; right: 100px; padding:5px; bottom: 10px;">
+                         <label style="position: relative; top: 22px; left: 20px; ">/</label>
+                        <input type="checkbox" value="/" onclick="div();"/>
+                       
+                       
+                            </td> 
+                      
+<tr>
+   
+ <td><input type="button" value="khrooji"/></td>
+    <td>
+        <input type="text" name="t3" id="t3"/>
+    </td>
+
+</tr>
+        </table>
+        
           </form>
      </div>
 
-<script  type="text/javascript" >
-
-function checkbox1 (a,b)
-    {
-        var c=a+b;
-        return c;
-    }
-    document.write(checkbox1(2,6)); 
-  
-    
-    function checkbox2 (a,b)
-    {
-        var c=a-b;
-        return c;
-    }
-    document.write(checkbox2(1,6));
-    
-    
-    function checkbox3 (a,b)
-    {
-        var c=a*b;
-
-        return c;
-    }
-    document.write(checkbox3(3,6));
-    
-    
-    function checkboxn4 (a,b)
-    {
-        var c=a/b;
-        return c;
-    }
-    document.write(checkbox4(2,6));
-    
-
-    </script>
-    
+     <script src="script.js" ></script>
 </body>
 </html>
 
