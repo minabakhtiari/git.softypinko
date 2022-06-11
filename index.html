@@ -1,281 +1,185 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-<meta charset=utf-8" />
-<title>Softy Pinko</title>
-<link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softy Pinko</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
 <style>
-
-    .menu,.menu ul,.menu li,.menu a {
-            margin: 0;
-            padding: 0;
-            border: none;
-            outline: none;
-    }
-    
-    
-    .menu {      
-            max-height:10%;
-            width: 100%;
-            direction:rtl;
-      background-color:rgb(255, 255, 255);
-          border-radius:70px;
-          position: relative;
-          right: 25px;
-      
-
-          
-      
-            
-            
-    }
-    
-    .menu li {
-            position: relative;
-            list-style: none;
-            float:right;
-            display: block;
-            height: 45px;
-            padding: 5px 5px;
-               }
-    
-    .menu li a {
-            display: block;
-            padding: 0 14px;
-            margin: 6px 0;
-            line-height: 28px;
-            text-decoration:none;
-           
-           
-    
-            font-family: Tahoma, Arial, sans-serif ;
-            font-weight: normal;
-            font-size: 1em;
-    
-            color: #000000;
-            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.959);
-    
-            -webkit-transition: color .2s ease-in-out;
-            -moz-transition: color .2s ease-in-out;
-            -o-transition: color .2s ease-in-out;
-            -ms-transition: color .2s ease-in-out;
-            transition: color .2s ease-in-out;
-    }
-    
-    .menu li:first-child a { border-left: none; }
-    .menu li:last-child a{ border-right: none; }
-    
-    .menu li:hover > a { color: #fdd8f8; }
-    
-    
-    
-    .menu ul {
-            position: absolute;
-            top: 40px;
-            right: 0;
-            opacity: 0;
-            background: #ff5ace;
-            -webkit-border-radius: 0 0 5px 5px;
-            -moz-border-radius: 0 0 5px 5px;
-            border-radius: 5px 5px 5px 5px;
-            -webkit-transition: opacity .25s ease .1s;
-            -moz-transition: opacity .25s ease .1s;
-            -o-transition: opacity .25s ease .1s;
-            -ms-transition: opacity .25s ease .1s;
-            transition: opacity .25s ease .1s;
-    }
-    
-    .menu li:hover > ul { opacity: 1; }
-    
-    .menu ul li {
-            height: 0;
-            overflow: hidden;
-            padding: 2px 2px 2px 2px;
-            -webkit-transition: height .25s ease .1s;
-            -moz-transition: height .25s ease .1s;
-            -o-transition: height .25s ease .1s;
-            -ms-transition: height .25s ease .1s;
-            transition: height .25s ease .1s;
-    }
-    
-    .menu li:hover > ul li {
-            height: 36px;
-            overflow: visible;
-            padding: 0;
-            direction:rtl;
-    }
-    
-    .menu ul li a {
-            width: 100px;
-            padding: 4px 30px 4px 0;
-            margin: 0;
-            border: none;
-            border-bottom: 3px solid #0202ca;
-    }
-    #m5li:hover{color:#fdd8f8;}
-    .menu ul li:last-child a { border: none; }
-    
-    
-    .menu a.documents { background: url(docs.png) no-repeat center; }
-    .menu a.messages { background: url(bubble.png) no-repeat  center; }
-    .menu a.signout { background: url(arrow.png) no-repeat  center; }
-    </style>
+    section{
+  padding:60px 0;
+  }
+</style>
 </head>
-<body>
-        <div class="main-container">
-                <header>  
-    <ul class="menu" style="float:right">
-        <li>
-            <a href="#"> Contact Us</a>
-    <ul style="text-align:right; margin-right:10px;">
-                    <li>
-                            <a class="documents" href="#">zir menu 1</a>
+    <body>
+<!--background-->
+<div class="container">
+  <div class="row expand-lg">
+    <div class="col-12-lg">
+      <div class="card text-white-light border-white">
+        <img src="pictures/paszamineh1.jpg" class="card-img" alt="paszamineh1"/>
+        <!--text-->
+        <div class="container ">
+          <div class="row expand-lg">
+            <div class="col-12-lg text-white" style="text-align:center;">
+              <div class="card-img-overlay">
+                  <!--menu-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-white" style=" border-radius: 35px;">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="pictures/لوگو.png2.png" />
+     </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse "  dir="rtl"id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#">Contact Us</a>
         </li>
-                    <li>
-                            <a class="messages" href="#">zir menu 2</a>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#">Blog Entries</a>
         </li>
-                    <li>
-                            <a class="signout" href="#">zir menu 3</a>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#">Pricing Tables</a>
         </li>
-            </ul>
-</li>
-        <li>
-                <a href="#"> Blog Entries</a>
-        <ul style="text-align:right">
-                        <li>
-                                <a class="documents" href="#">zir menu 1</a>
-            </li>
-                        <li>
-                                <a class="messages" href="#">zir menu 2</a>
-            </li>
-                        <li>
-                                <a class="signout" href="#"> zir menu 3</a>
-            </li>
-                </ul>
-    </li>
-        <li>
-                <a href="#">Pricing Tables </a>
-                <ul style="text-align:right">
-                        <li>
-                                <a class="documents" href="#"> zir menu 1</a>
-            </li>
-                        <li>
-                                <a class="messages" href="#"> zir menu 2</a>
-            </li>
-                        <li>
-                                <a class="signout" href="#"> zir menu 3</a>
-            </li>
-                </ul>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#">Testimoni</a>
         </li>
-
-
-        <li>
-                <a href="#"> Testimoni</a>
-                <ul style="text-align:right">
-                        <li>
-                                <a class="documents" href="#">zir menu 1 </a>
-            </li>
-                        <li>
-                                <a class="messages" href="#"> zir menu 2</a>
-            </li>
-                        <li>
-                                <a class="signout" href="#"> zir menu 3</a>
-            </li>
-                </ul>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#">Work Process</a>
         </li>
-
-        <li>
-                <a href="#">Work Process </a>
-                <ul style="text-align:right">
-                        <li>
-                                <a class="documents" href="#"> zir menu 1</a>
-            </li>
-                        <li>
-                                <a class="messages" href="#"> zir menu 2</a>
-            </li>
-                        <li>
-                                <a class="signout" href="#"> zir menu 3</a>
-            </li>
-                </ul>
+        
+        <li class="nav-item">
+          <a class="nav-link active fw-bold display-8 text-danger " aria-current="page" href="#">Home</a>
         </li>
-
-
-        <li>
-                <a href="#"> About</a>
-    </li>
-        <li id="m5">
-                <a href="#" style="color: tomato;">Home</a>
-    </li>
-    <img src="لوگو.jpg"alt="لوگو.jpg"   class="img-logo"/>
-</ul>
-<section id="text">
- <p style="position: relative; left: 560px; top:120px;color: white;font-size: 245%; filter:opacity(80%);">We provide the best</p> <bdi style="font-size: 245%;position: relative;left:859px;top: 40px;color: white;">strategy</bdi>
- <p style="position: relative; left: 589px; top:10px;color: white;font-size: 220%; filter:opacity(80%);">to grow up your </p> <bdi style="font-size: 220%; position: relative; left:805px;color: white;bottom:60px;">business</bdi>
- <p style="color: white; filter: opacity(80%);position: relative; left: 570px;bottom: 60px;">Softy Pinko is profissional Bootstrap 4.0 theme deisigned by Template Mo</p>
- <p style="color: white; filter: opacity(80%); position: relative; left: 640px;bottom: 60px;">for your company al absolutcly free of chenge</p>
- <button type="button" onclick="alert('USCOVER MOVE')" style="background-color: rgb(255, 56, 122); position: relative; left: 720px; bottom:60px; border-radius: 20px; color: white; border-color:  rgb(255, 56, 122); padding: 11px 11px 11px 11px;"><a href="#">USCOVER MOVE</a></button>
-</section>
-</header>
- <main>
- <div class="box1" >
-        <img id="goft" src="3nafari.jpg" alt="goftegoo" />
-        <p id="p1">Modern Strategy</p>
-        <pre id="p1-2">Customize anything inthis templateto fit </pre>
-        <pre id="p1-2">your website needs</pre>
+      </ul>
     </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row expand-sm">
+    <div class="col-12-sm">
+    <div class="card-body text-white">
+    <h3 class="card-title  display-5" style=" filter:opacity(80%); position: relative; right: 100px; top: 1px;">We provide the best</h3> <h3 class="card-title expand-md display-5 " style="margin: 2rem auto; position: relative; bottom:85px; left: 190px;">strategy</h3>
+    <h5 class="card-text  display-6" style="position:relative;bottom:120px; right: 120px; filter:opacity(80%);">to grow up your</h5><h5 class="card-text expand-md  display-6" style="position:relative;bottom: 175px; left:90px; ">business</h5>
+   <p class="card-text " style="position:relative;bottom: 170px; right: 20px;">Softy Pinko is profissional Bootstrap 4.0 theme deisigned by Template Mo</p>
+   <p class="card-text " style="position:relative;bottom: 180px; right: 20px;">for your company al absolutcly free of chenge</p>
+    <a href="#" class="btn btn-danger border-danger "style="position:relative;bottom: 180px; right: 20px; border-radius: 35px;under" >USCOVER MOVE</a>
 
-    
-    <div class="box2" >
-        <img id="gof" src="3nafari.jpg" alt="goftegoo" />
-        <p id="p2">Best Relationship</p>
-        <pre id="p2-2">Contact us immodateiy if you have a  </pre>
-        <pre id="p2-2">question in mind</pre>
-    </div> 
-  
-
-    
-    <div class="box3" >
-        <img id="go" src="3nafari.jpg" alt="goftegoo" />
-        <p id="p3">Best Relationship</p>
-        <pre id="p3-2">Contact us immodateiy if you have a  </pre>
-        <pre id="p3-2">question in mind</pre>
-    </div>  
-
-
-    <section class="content">
-    <div class="box4" >
-        <img id="donaf" src="donafareh neshaste.jpg" alt="donafareh" />
-       
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--cards paeen paszamineh-->
+<div class="container  ">
+  <div class="row row-cols-1  g-3 expand-lg expand-sm">
+    <div class="col-4 ">
+      <div class="card" style="position: relative; bottom:68px; border-radius:4%">
+        <img src="pictures/3nafari.jpg" class="card-img-top" alt="..."  style="border-radius:90%; max-width: 30%; height: auto; align-self:center;">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align:center;">Modern Strategy</h5>
+          <p class="card-text">Customize anything inthis templateto fit your website needs</p>
+          
+        </div>
+      </div>
     </div>
-
-    <div class="box5" >
-        <p id="p5">Lets discuss about you project</p>
-        <pre id="p5-2">Nullam slt amet purus libero,Etlam ullamcorper nisl ut augue </pre>
-        <pre id="p5-2">blandit. at finibus 1eo efficitur.nam gravida purus non sapien</pre>
-        <pre id="p5-2">auclor, ut aliquam magna ullamcorper.</pre>
-
-    </div>   
-
-    
-    <div class="box6" >
-        <p id="p6">We can help you to grow your business</p>
-        <pre id="p6-2">Aenean pretlum,lpsum et porttitor auctor. metus lpsum laculls</pre>
-        <pre id="p6-2">nisi. a bibendum lectus libero vitae urna. sed id leo eu dolor</pre>
-        <pre id="p6-2">luctus conguo sod ogot ipsum. Nunc ncc luctus libcro.Etiam</pre>
-        <pre id="p6-2">quis dolor alit.</pre>
-    </div>  
-
-
-
-    
-    <div class="box7" >
-        <img id="pish" src="komak.jpg" alt="pishraft" />
-       
+    <div class="col-4">
+      <div class="card" style="position: relative; bottom:68px; border-radius:4%">
+        <img src="pictures/3nafari.jpg" class="card-img-top" alt="..."   style="border-radius:90%; max-width: 30%; height: auto; align-self:center;">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align:center;">Best Relationship</h5>
+          <p class="card-text"style="filter:opacity(80%);">Contact us immodateiy if you have a question in mind </p>
+          
+        </div>
+      </div>
     </div>
-    </section>
-</main>
-<footer></footer>
+    <div class="col-4">
+      <div class="card" style="position: relative; bottom:68px; border-radius:4%" >
+        <img src="pictures/3nafari.jpg" class="card-img-top" alt="..."  style="border-radius:90%;  max-width: 30%; height: auto; align-self:center;"/>
+        <div class="card-body">
+          <h5 class="card-title" style="text-align:center;">Best Relationship</h5>
+          <p class="card-text">Contact us immodateiy if you have a question in mind </p>
+     
+        </div>
+      </div>
+    </div>
+    
+    
+<!--img&text1-->
+<div class="container">
+  <div class="row expand-md">
+      <div class="card mb-3 expand-md" style=" position: relative; left: 10px;padding:10px; ">
+        <div class="row g-0">
+          <div class="col-md-4 expand-md">
+            <img src="pictures/donafareh neshaste.jpg" class="img-fluid rounded-start" alt="..." height="200" max-width="300" style=" position: relative; left:10px;">
+          </div>
+          <div class="col-md-8 expand-md">
+            <div class="card-body expand-md">
+              <h5 class="card-title expand-md" style=" position: relative; left:200px; top: 50px;">Lets discuss about you project</h5>
+              <p class="card-text expand-md" style=" position: relative; left: 160px; top: 50px;">Nullam slt amet purus libero,Etlam ullamcorper nisl ut augue </p>
+              <p class="card-text expand-md" style=" position: relative;  left: 160px;top: 50px;">blandit. at finibus 1eo efficitur.nam gravida purus non sapien </p>
+              <p class="card-text expand-md" style=" position: relative; left: 160px; top: 50px;">auclor, ut aliquam magna ullamcorper.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </div>
 </div>
 
+<!--img&text2-->
+<div class="container">
+  <div class="row expand-md">
+      <div class="card mb-3 expand-md " style=" position: relative; left: 10px;padding:10px; ">
+        <div class="row g-0">
+          <div class="col-md-8 expand-md">
+            <div class="card-body">
+              <h5 class="card-title expand-md" style=" position: relative; left:100px; top: 50px;">We can help you to grow your business</h5>
+              <p class="card-text expand-md" style=" position: relative; left: 50px; top: 50px;">Aenean pretlum,lpsum et porttitor auctor. metus lpsum laculls</p>
+              <p class="card-text expand-md" style=" position: relative; left: 50px; top: 50px;">nisi. a bibendum lectus libero vitae urna. sed id leo eu dolor</p>
+              <p class="card-text expand-md" style=" position: relative; left: 50px; top: 50px;">luctus conguo sod ogot ipsum. Nunc ncc luctus libcro.Etiamquis dolor alit.</p>
+          
+            </div>
+          </div>
+          <div class="col-md-4 expand-md">
+            <img src="pictures/komak.jpg" img-fluid rounded-start" alt="..." height="200" max-width="300" style=" position: relative; left:70px;">
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+  </div>
+  
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
