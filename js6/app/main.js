@@ -23,24 +23,24 @@ class calculationModel {
   model.n2 = evt.target.valueAsNumber;
  };
  const displayResult = () => {
-  document.getElementById('Result')
+  document.getElementById('result')
    .innerText = model.result;
  };
  const onBtnAddClick = () => {
   model.add();
-  displayResult();
+  displayresult();
  };
  const onBtnSubtractClick = () => {
   model.subtract();
-  displayResult();
+  displayresult();
  }
  const onBtnMultiplyClick = () => {
   model.multiply();
-  displayResult();
+  displayresult();
  }
  const onBtnDivideClick = () => {
   model.divide();
-  displayResult();
+  displayresult();
  }
  window.addEventListener('load', () => {
   let addadaval = document.getElementById('addad aval');

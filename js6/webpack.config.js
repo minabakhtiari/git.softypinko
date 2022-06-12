@@ -16,4 +16,4 @@ module: {
 }
 devServer: {
     port: 3000
-}
+};
